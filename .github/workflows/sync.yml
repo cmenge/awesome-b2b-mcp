@@ -1,0 +1,33 @@
+name: sync
+
+# Regenerate README.md from the live Revuo directory and commit if anything
+# changed. Freshness is the whole pitch, so this runs weekly (and on demand).
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Regenerate
+        run: node generate.mjs
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "revuo-sync[bot]"
+          git config user.email "sync@revuo.ai"
+          git add README.md
+          git commit -m "chore: sync from Revuo directory ($(date -u +%Y-%m-%d))"
+          git push

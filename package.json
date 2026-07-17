@@ -1,0 +1,13 @@
+{
+  "name": "awesome-b2b-mcp",
+  "version": "1.0.0",
+  "description": "A curated, auto-synced list of B2B SaaS products with agent-callable MCP servers.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node generate.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
