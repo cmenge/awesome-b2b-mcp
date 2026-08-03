@@ -2,15 +2,15 @@
 
 A curated, always-current list of **B2B SaaS products that expose an agent-callable MCP server** — grouped by category, each linking to its continuously-verified listing.
 
-**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-07-27.**
+**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-08-03.**
 
-149 products across 19 categories · 33 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
+152 products across 19 categories · 35 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
 
 > Why this exists: general `awesome-mcp-servers` lists catalogue OSS and dev-tool servers. This one tracks **commercial B2B SaaS** with MCP endpoints — what an agent builder or procurement researcher actually searches for. Listings are neutral and complete: competitors and vendor-operated products alike, ranked only by verified signals (claim status, then tool count). The linked Revuo page is the citable source of truth for each — capabilities, access model, and any operator affiliation.
 
 ## Contents
 
-- [MCP Servers](#mcp-servers) (85)
+- [MCP Servers](#mcp-servers) (86)
 - [SSO Auth Bridges](#sso-auth-bridges) (10)
 - [OpenClaw Hosting Services](#openclaw-hosting-services) (7)
 - [Billing & Invoicing](#billing-invoicing) (6)
@@ -20,14 +20,14 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - [AI Software Delivery (AI-SDLC)](#ai-software-delivery-ai-sdlc) (5)
 - [AI Blog Writer](#ai-blog-writer) (4)
 - [B2B SaaS Directories](#b2b-saas-directories) (3)
+- [Tender Management](#tender-management) (3)
 - [Coding Agent Remotes](#coding-agent-remotes) (2)
+- [Headerhunter CRM Software](#headerhunter-crm-software) (2)
 - [PIM/PXM Software](#pimpxm-software) (2)
-- [Tender Management](#tender-management) (2)
 - [Uncategorized](#uncategorized) (2)
 - [AI Photo and Video](#ai-photo-and-video) (1)
 - [Communication & Collaboration](#communication-collaboration) (1)
 - [Finance & Payments](#finance-payments) (1)
-- [Headerhunter CRM Software](#headerhunter-crm-software) (1)
 - [Productivity & Business](#productivity-business) (1)
 
 ## MCP Servers
@@ -42,10 +42,12 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Google Drive](https://www.revuo.ai/category/mcp-servers/googledrive)** — Upload, organize, and share files in the cloud. Manage folders, set permissions, and search across stored documents. · `20 tools` · remote · ✓ verified
 - **[Blockscout MCP](https://www.revuo.ai/category/mcp-servers/blockscout)** — Provide AI agents and automation tools with contextual access to blockchain data including balances, tokens, NFTs, and contract metadata. Enable multi-chain support and deliver enhanced user experience with progress notifications for long-running queries. Facilitate seamless integration with AI hosts like Claude Desktop for blockchain data analysis. · `16 tools` · remote · ✓ verified
 - **[Instagram](https://www.revuo.ai/category/mcp-servers/instagram)** — Instagram is a social media platform for sharing photos, videos, and stories. Only supports Instagram Business and Creator accounts, not Instagram Personal accounts. · `16 tools` · remote · ✓ verified
+- **[youtube](https://www.revuo.ai/category/mcp-servers/sfiorini)** — YouTube is a video-sharing platform with user-generated content, live streaming, and monetization opportunities, widely used for marketing, education, and entertainment · `16 tools` · remote · ✓ verified
 - **[Notion](https://www.revuo.ai/category/mcp-servers/notion)** — Search across your Notion workspace and connected sources to quickly find pages, databases, and users. View full page and database details for deeper context. Create and update pages, manage databases, move or duplicate content, and add comments to keep work organized. · `14 tools` · remote · ✓ verified
 - **[Ticktick](https://www.revuo.ai/category/mcp-servers/ticktick)** — TickTick is a cross-platform task management and to-do list application designed to help users organize their tasks and schedules efficiently. · `11 tools` · remote · ✓ verified
 - **[Reddit](https://www.revuo.ai/category/mcp-servers/reddit)** — Reddit is a social news platform with user-driven communities (subreddits), offering content sharing, discussions, and viral marketing opportunities for brands · `10 tools` · remote · ✓ verified
 - **[Brave Search](https://www.revuo.ai/category/mcp-servers/brave)** — Search the web with Brave's independent index — web, news, images, and videos. Bring your own subscription token from the \[Brave Search API dashboard\](https://api-dashboard.search.brave.com). · `8 tools` · remote · ✓ verified
+- **[Docfork](https://www.revuo.ai/category/mcp-servers/docfork)** — Search and retrieve documentation from GitHub repositories and the web to find technical answers quickly. Transform complex web pages into clean markdown for efficient reading and analysis. Simplify library research by using specific repository identifiers for targeted documentation access. · `2 tools` · remote · ✓ verified
 - **[Exa Search](https://www.revuo.ai/category/mcp-servers/exa)** — Fast, intelligent web search and web crawling. Get fresh information about libraries, APIs, and SDKs. · `2 tools` · remote · ✓ verified
 - **[Financial Modeling Prep](https://www.revuo.ai/category/mcp-servers/cfocoder)** — Access comprehensive market data to research stocks, companies, indexes, ETFs, crypto, forex, and macroeconomics. Retrieve real-time quotes, financial statements, ratios, technical indicators, news, SEC filings, earnings, and calendars to power analyses and reports. Load only the data categories you need for faster, streamlined workflows. · `253 tools` · remote
 - **[Korean Law Search](https://www.revuo.ai/category/mcp-servers/rabqatab)** — Search and retrieve Korean statutes and administrative rules with precise filters. Access English translations and drill down to articles, paragraphs, and sub-items. Explore linkages with local ordinances and delegated authority to speed up legal research. · `54 tools` · remote
@@ -58,7 +60,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Next.js Tailwind Assistant](https://www.revuo.ai/category/mcp-servers/caullenomdahl)** — Your comprehensive AI companion for building modern Next.js applications with React and Tailwind CSS. This MCP server provides instant access to complete documentation, production-ready components, and battle-tested design patterns abstracted from professional templates. · `16 tools` · remote
 - **[AI Research Assistant](https://www.revuo.ai/category/mcp-servers/hamid-vakilzadeh)** — The server provides immediate access to millions of academic papers through Semantic Scholar and arXiv, enabling AI-powered research with comprehensive search, citation analysis, and full-text PDF extraction from multiple sources (arXiv and Wiley open-access).  - No API key is required. · `12 tools` · remote
 - **[Clinical Trials Data](https://www.revuo.ai/category/mcp-servers/plainyogurt21)** — Provide structured access to ClinicalTrials.gov data for searching, retrieving, and analyzing clinical trial information. Enable multi-parameter searches, detailed trial retrievals, and statistical analyses to support medical research and healthcare decision-making. Deliver robust error handling and flexible field selection to optimize data responses. · `12 tools` · remote
-- **[OpenWebSearch](https://www.revuo.ai/category/mcp-servers/aas-ee)** — Search Naver across news, blogs, books, encyclopedia, cafe posts, Knowledge iN, local places, images, shopping, and professional documents. Returns Korean-language results and Korea-local content that global search engines often miss. · `12 tools` · remote
 - **[WebSim Explorer](https://www.revuo.ai/category/mcp-servers/gigachadtrey)** — Discover WebSim projects, creators, and trending content with powerful search and filters. Inspect project details, screenshots, comments, and engagement stats to guide research and curation. Track user profiles and activity to surface influential creators and relevant assets. · `11 tools` · remote
 - **[BoardGameGeek](https://www.revuo.ai/category/mcp-servers/kkjdaniel)** — BGG MCP provides access to BoardGameGeek and a variety of board game related data through the Model Context Protocol. Enabling retrieval and filtering of board game data, user collections, and profiles. · `10 tools` · remote
 - **[Server for Singapore Government Open Data](https://www.revuo.ai/category/mcp-servers/aniruddha-adhikary)** — Provide seamless access to open datasets and collections from data.gov.sg. Enable searching, metadata retrieval, and filtered dataset downloads for analysis. · `10 tools` · remote
@@ -67,12 +68,12 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[ArXiv Scout](https://www.revuo.ai/category/mcp-servers/shawnnygoh)** — Search and retrieve academic papers directly from arXiv with advanced query capabilities. Extract full text from PDFs to generate summaries, literature reviews, and side-by-side comparisons. Track citations and references to discover related research and map out academic trends. · `8 tools` · remote
 - **[macrostrat](https://www.revuo.ai/category/mcp-servers/blake365)** — Explore global geologic data to answer questions about bedrock, formations, ages, and stratigraphy. Retrieve units, columns, minerals, timescales, and definitions for any location to build accurate geological context. Generate geology map tiles for quick visualization of areas of interest. · `8 tools` · remote
 - **[NGSS Standards Explorer](https://www.revuo.ai/category/mcp-servers/sallvainian)** — Search and retrieve NGSS standards by code, domain, or topic. Explore three-dimensional components (SEPs, DCIs, and CCCs) and discover related standards by shared practices, concepts, or core ideas. Plan cohesive curriculum units with suggestions for compatible standards. · `8 tools` · remote
+- **[Weather MCP](https://www.revuo.ai/category/mcp-servers/isdaniel)** — Retrieve real-time weather information effortlessly for any city. Get accurate weather updates using a simple command or API call without needing an API key. Enhance your applications with reliable weather data from the Open-Meteo API. · `8 tools` · remote
 - **[Where's my train? MTA Guide](https://www.revuo.ai/category/mcp-servers/sasabasara)** — Real-time NYC subway stations, arrivals, service alerts, and route planning. · `8 tools` · remote
 - **[Greeting & Utilities](https://www.revuo.ai/category/mcp-servers/devbrother2024)** — Send friendly greetings in multiple languages, run quick calculations, and get the current time for any timezone. Generate images from text prompts to visualize ideas. Boost development with a ready-made code review prompt. · `7 tools` · remote
 - **[grokipedia](https://www.revuo.ai/category/mcp-servers/skymoore)** — Search and retrieve Grokipedia articles with filters, full content, and citations. Explore related pages and extract sections to quickly gather relevant knowledge. Run guided workflows to research topics, find sources, and compare subjects. · `7 tools` · remote
 - **[Polymarket](https://www.revuo.ai/category/mcp-servers/aryankeluskar)** — Discover and filter Polymarket prediction markets and events by tags, volume, liquidity, and activity. Analyze individual markets with probabilities, market health, and recent trade insights to inform decisions. Track trends across categories to spot opportunities and compare sentiment over time. · `7 tools` · remote
 - **[Saju Insights](https://www.revuo.ai/category/mcp-servers/hjsh200219)** — Discover personalized Four Pillars (Saju) readings, from daily to yearly fortunes and 10-year luck cycles, based on your birth data. Check relationship compatibility and receive Yongshin-driven guidance with practical tips on colors, directions, and careers. Convert between lunar and solar calendars and tailor interpretations across different schools. · `7 tools` · remote
-- **[youtube](https://www.revuo.ai/category/mcp-servers/sfiorini)** — Search and browse videos, channels, and playlists to fetch titles, descriptions, stats, and durations. Retrieve multilingual, timestamped transcripts and search within captions for precise context. Surface channel and playlist insights quickly by listing items and details. · `7 tools` · remote
 - **[Ziwei & Bazi Astrology](https://www.revuo.ai/category/mcp-servers/spyfree)** — Generate Ziwei Doushu and Bazi charts with insights into palaces, stars, and the five elements. Explore fortunes across decades, years, months, days, and hours to time decisions and plan ahead. Compare available astrology systems and analyze elemental strengths, balance, and gaps. · `7 tools` · remote
 - **[MTG Chinese Card Database - 大学院废墟(sbwsz.com)](https://www.revuo.ai/category/mcp-servers/lieyanqzu)** — Provide seamless access to Magic: The Gathering Chinese card data through a set of powerful query tools. Search cards by complex criteria, retrieve card sets, and get detailed card information to enhance your applications or workflows. Easily integrate via stdio or Streamable HTTP modes for flexible usage. · `6 tools` · remote
 - **[tcmb](https://www.revuo.ai/category/mcp-servers/ofurkanuygur)** — Fetch today's and historical exchange rates from the Turkish Central Bank dating back to 1996. Convert between currencies and compare trends with summary statistics. Rely on holiday-aware lookups to always return the latest available data. · `6 tools` · remote
@@ -87,7 +88,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[PlantUML Diagrams](https://www.revuo.ai/category/mcp-servers/infobip)** — Create PlantUML diagrams with automatic syntax validation and auto-fix suggestions. Get embeddable image URLs for valid diagrams and structured feedback to resolve issues. Encode or decode PlantUML code for easy URL sharing. · `3 tools` · remote
 - **[Context Awesome](https://www.revuo.ai/category/mcp-servers/bh-rat)** — Provide your AI agents with instant access to the best curated resources from over 8,500 awesome lists and more than 1 million items. Discover relevant sections and retrieve high-quality references for deep research, learning, and knowledge work. Enhance your agents' ability to find vetted tools and libraries across a wide range of topics efficiently. · `2 tools` · remote
 - **[Context7](https://www.revuo.ai/category/mcp-servers/upstash)** — Provide up-to-date, version-specific code documentation and examples directly into your prompts to enhance coding accuracy and reduce hallucinated APIs. Seamlessly integrate with various MCP clients to fetch the latest library docs and improve your AI coding assistant's effectiveness. Simplify your development workflow by embedding real-time, reliable code context without switching tabs. · `2 tools` · remote
-- **[Docfork](https://www.revuo.ai/category/mcp-servers/docfork)** — Up-to-date docs for AI Agents. Sign up for free API key at https://docfork.com · `2 tools` · remote
 - **[Lotus Wisdom](https://www.revuo.ai/category/mcp-servers/linxule)** — Lotus Wisdom is a contemplative reasoning tool inspired by the Lotus Sutra. It guides AI through structured wisdom journeys for complex problems where logic alone isn't enough. Flow through wisdom domains (skillful means, non-dual recognition, meta-cognitive), take meditative pauses, and track your path across perspectives. Start with tag='begin' to receive the full framework, then continue with tags like open, examine, integrate, and express. The tool signals when insight is ready to be spoken in your own voice. Best for multi-perspective problems, contradictions needing integration, and questions holding their own wisdom. · `2 tools` · remote
 - **[RSS Reader](https://www.revuo.ai/category/mcp-servers/kwp-lab)** — Track and browse RSS feeds with ease. Fetch the latest entries from any feed URL and extract full article content for clean, distraction-free reading. Save or analyze articles in a consistent, structured format. · `2 tools` · remote
 - **[Web Scout](https://www.revuo.ai/category/mcp-servers/pinkpixel-dev)** — Search the web and extract clean, readable text from webpages. Process multiple URLs at once to speed up research with reliable throttling and error handling. Quickly compile sources and summaries for briefs, reports, or competitive analysis. · `2 tools` · remote
@@ -117,6 +117,7 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[FrankfurterMCP](https://www.revuo.ai/category/mcp-servers/anirbanbasu)** — A MCP server for the Frankfurter API for currency exchange rates. · remote
 - **[Linkup](https://www.revuo.ai/category/mcp-servers/linkupplatform)** — Search the web in real time to get trustworthy, source-backed answers. Find the latest news and co… · `2 tools` · remote
 - **[NetworkCalc](https://www.revuo.ai/category/mcp-servers/ramadasmr)** — Look up DNS information for any domain to troubleshoot issues and gather insights. Get fast, relia… · `5 tools` · remote
+- **[OpenWebSearch](https://www.revuo.ai/category/mcp-servers/aas-ee)** — Search Naver across news, blogs, books, encyclopedia, cafe posts, Knowledge iN, local places, images, shopping, and professional documents. Returns Korean-language results and Korea-local content that global search engines often miss. · `15 tools` · remote
 
 ## SSO Auth Bridges
 
@@ -196,20 +197,26 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Smithery](https://www.revuo.ai/category/b2b-saas-directories/smithery)** — Connect agents to MCPs in minutes · `46 tools` · remote
 - **[G2](https://www.revuo.ai/category/b2b-saas-directories/g2)** — The world’s largest and most trusted data source for B2B software. · remote
 
+## Tender Management
+
+- **[SamSearch](https://www.revuo.ai/category/tender-management/samsearch)** — AI for Government Contracting \| Contract Search & Proposal Generator · `12 tools` · remote
+- **[RocketDocs](https://www.revuo.ai/category/tender-management/rocketdocs)** — Response management platform for regulated industries with private AI. · `1 tool` · remote
+- **[Brainial](https://www.revuo.ai/category/tender-management/brainial)** — AI-native platform for bid and tender management · remote
+
 ## Coding Agent Remotes
 
 - **[Aider](https://www.revuo.ai/category/coding-agent-remotes/aider)** — AI Pair Programming in Your Terminal
 - **[Omnara](https://www.revuo.ai/category/coding-agent-remotes/omnara)** — Mobile & Voice Interface for Claude Code & Codex · remote
 
+## Headerhunter CRM Software
+
+- **[Zoho Recruit](https://www.revuo.ai/category/headerhunter-crm-software/zoho-recruit)** — All-in-one recruitment software for HR teams and staffing agencies. · `6 tools` · remote · ✓ verified
+- **[hunter](https://www.revuo.ai/category/headerhunter-crm-software/hunter-software)** — Recruiting-Software für Personalberater & Recruiter · remote
+
 ## PIM/PXM Software
 
 - **[FacetFlux](https://www.revuo.ai/category/pim-software/facetflux)** — AI product data enrichment for industrial suppliers · `44 tools` · remote · ✓ verified
 - **[Optivise](https://www.revuo.ai/category/pim-software/optivise)** — The fastest way to list and sell on Mirakl Marketplaces · `2 tools` · remote · ✓ verified
-
-## Tender Management
-
-- **[RocketDocs](https://www.revuo.ai/category/tender-management/rocketdocs)** — Response management platform for regulated industries with private AI. · `1 tool` · remote
-- **[Brainial](https://www.revuo.ai/category/tender-management/brainial)** — AI-native platform for bid and tender management · remote
 
 ## Uncategorized
 
@@ -227,10 +234,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 ## Finance & Payments
 
 - **[Lovie](https://www.revuo.ai/category/mcp-finance/lovie)** — Agent-Native Banking for AI-First Companies · remote
-
-## Headerhunter CRM Software
-
-- **[Zoho Recruit](https://www.revuo.ai/category/headerhunter-crm-software/zoho-recruit)** — All-in-one recruitment software for HR teams and staffing agencies. · `6 tools` · remote · ✓ verified
 
 ## Productivity & Business
 
