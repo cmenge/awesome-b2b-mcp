@@ -2,9 +2,9 @@
 
 A curated, always-current list of **B2B SaaS products that expose an agent-callable MCP server** — grouped by category, each linking to its continuously-verified listing.
 
-**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-09-14.**
+**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-09-21.**
 
-191 products across 22 categories · 28 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
+193 products across 22 categories · 28 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
 
 > Why this exists: general `awesome-mcp-servers` lists catalogue OSS and dev-tool servers. This one tracks **commercial B2B SaaS** with MCP endpoints — what an agent builder or procurement researcher actually searches for. Listings are neutral and complete: competitors and vendor-operated products alike, ranked only by verified signals (claim status, then tool count). The linked Revuo page is the citable source of truth for each — capabilities, access model, and any operator affiliation.
 
@@ -12,16 +12,16 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 
 - [MCP Servers](#mcp-servers) (85)
 - [SSO Auth Bridges](#sso-auth-bridges) (11)
+- [Billing & Invoicing](#billing-invoicing) (9)
 - [Headerhunter CRM Software](#headerhunter-crm-software) (9)
-- [Billing & Invoicing](#billing-invoicing) (8)
 - [Cloud & Infrastructure](#cloud-infrastructure) (8)
+- [AI Agent Orchestration](#ai-agent-orchestration) (7)
 - [OpenClaw Hosting Services](#openclaw-hosting-services) (7)
 - [AEO/GEO/LLM Monitoring](#aeogeollm-monitoring) (6)
-- [AI Agent Orchestration](#ai-agent-orchestration) (6)
-- [AI Blog Writer](#ai-blog-writer) (6)
 - [AI Software Delivery (AI-SDLC)](#ai-software-delivery-ai-sdlc) (6)
+- [Coding Agent Remotes](#coding-agent-remotes) (6)
 - [Finance & Payments](#finance-payments) (6)
-- [Coding Agent Remotes](#coding-agent-remotes) (5)
+- [AI Blog Writer](#ai-blog-writer) (5)
 - [Tender Management](#tender-management) (5)
 - [B2B SaaS Directories](#b2b-saas-directories) (4)
 - [Communication & Collaboration](#communication-collaboration) (3)
@@ -135,28 +135,29 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Kinde](https://www.revuo.ai/category/sso-auth-bridges/kinde)** — Modern auth and billing for engineers. The fully integrated developer platform.
 - **[OneLogin](https://www.revuo.ai/category/sso-auth-bridges/onelogin)** — Access without friction. Security without compromise.
 
+## Billing & Invoicing
+
+- **[Monego](https://www.revuo.ai/category/billing-invoicing/monego)** — E‑Rechnungspflicht 2027 / 2028: einfach erfüllt. Ab 89 € pro Jahr. · `12 tools` · remote · ✓ verified
+- **[Mercury](https://www.revuo.ai/category/billing-invoicing/mercury)** — Radically different banking for startups and scaling companies · `30 tools` · remote
+- **[PandaDoc](https://www.revuo.ai/category/billing-invoicing/pandadoc)** — Create, Approve, Track & eSign Docs 40% Faster · `22 tools` · remote
+- **[FreshBooks](https://www.revuo.ai/category/billing-invoicing/freshbooks)** — Invoice and Accounting Software for Small Businesses · `6 tools` · remote
+- **[QuickBooks](https://www.revuo.ai/category/billing-invoicing/quickbooks)** — Smart Tools. Better Business. · `6 tools` · remote
+- **[DATEV](https://www.revuo.ai/category/billing-invoicing/datev)** — Führend in Software, Service & Wissen.
+- **[Sage](https://www.revuo.ai/category/billing-invoicing/sage)** — Helping business flow with accounting, ERP, payroll and HR software for SMBs · `5 tools`
+- **[sevdesk](https://www.revuo.ai/category/billing-invoicing/sevdesk)** — All-in-one digital accounting software for freelancers and small businesses in Germany
+- **[Wave](https://www.revuo.ai/category/billing-invoicing/wave)** — Small business software for easy accounting, invoicing, payments, and payroll.
+
 ## Headerhunter CRM Software
 
 - **[Recruit CRM](https://www.revuo.ai/category/headerhunter-crm-software/recruit-crm)** — Most intuitive AI-first recruiting software · `81 tools` · remote
 - **[Zoho Recruit](https://www.revuo.ai/category/headerhunter-crm-software/zoho-recruit)** — All-in-one recruitment software for HR teams and staffing agencies. · `81 tools` · remote
-- **[Paylocity](https://www.revuo.ai/category/headerhunter-crm-software/paylocity)** — Unify HR, Finance, & IT \| HR & Payroll Simplified. · `6 tools` · remote
 - **[Workday](https://www.revuo.ai/category/headerhunter-crm-software/workday)** — The Enterprise AI Platform for HR, Finance, and IT · `3 tools` · remote
 - **[ADP](https://www.revuo.ai/category/headerhunter-crm-software/adp)** — Payroll, HR and Tax Services \| Experience better HR and payroll
 - **[Ashby](https://www.revuo.ai/category/headerhunter-crm-software/ashby)** — All-in-one Recruiting Software for Ambitious Teams · remote
 - **[Greenhouse](https://www.revuo.ai/category/headerhunter-crm-software/greenhouse)** — The only hiring platform you’ll ever need · remote
 - **[hunter](https://www.revuo.ai/category/headerhunter-crm-software/hunter-software)** — Recruiting-Software für Personalberater & Recruiter · remote
 - **[Lever](https://www.revuo.ai/category/headerhunter-crm-software/lever)** — AI-Powered Hiring Platform · remote
-
-## Billing & Invoicing
-
-- **[Monego](https://www.revuo.ai/category/billing-invoicing/monego)** — E‑Rechnungspflicht 2027 / 2028: einfach erfüllt. Ab 89 € pro Jahr. · `12 tools` · remote · ✓ verified
-- **[Mercury](https://www.revuo.ai/category/billing-invoicing/mercury)** — Radically different banking for startups and scaling companies · `30 tools` · remote
-- **[PandaDoc](https://www.revuo.ai/category/billing-invoicing/pandadoc)** — Create, Approve, Track & eSign Docs 40% Faster · `22 tools` · remote
-- **[Wave](https://www.revuo.ai/category/billing-invoicing/wave)** — Small business software for easy accounting, invoicing, payments, and payroll. · `19 tools` · remote
-- **[FreshBooks](https://www.revuo.ai/category/billing-invoicing/freshbooks)** — Invoice and Accounting Software for Small Businesses · `6 tools` · remote
-- **[QuickBooks](https://www.revuo.ai/category/billing-invoicing/quickbooks)** — Smart Tools. Better Business. · `6 tools` · remote
-- **[Sage](https://www.revuo.ai/category/billing-invoicing/sage)** — Helping business flow with accounting, ERP, payroll and HR software for SMBs
-- **[sevdesk](https://www.revuo.ai/category/billing-invoicing/sevdesk)** — All-in-one digital accounting software for freelancers and small businesses in Germany
+- **[Personio](https://www.revuo.ai/category/headerhunter-crm-software/personio)** — Core HR, Talent und Lohnabrechnung – in einer KI-gestützten Plattform, die mit Ihnen wächst. · remote
 
 ## Cloud & Infrastructure
 
@@ -168,6 +169,16 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Grafana](https://www.revuo.ai/category/mcp-cloud-infra/grafana)** — The open and composable observability platform.
 - **[OVHcloud](https://www.revuo.ai/category/mcp-cloud-infra/ovhcloud)** — European cloud provider delivering high-performance bare metal, VPS, and public cloud solutions with data sovereignty. · remote
 - **[Scaleway](https://www.revuo.ai/category/mcp-cloud-infra/scaleway)** — European Cloud & AI.
+
+## AI Agent Orchestration
+
+- **[PromptShuttle](https://www.revuo.ai/category/ai-agent-orchestration/promptshuttle)** — Agent Orchestration API · `14 tools` · remote · ✓ verified
+- **[Zapier Central](https://www.revuo.ai/category/ai-agent-orchestration/zapier-central)** — Build AI teammates with Zapier Agents · `1 tool` · remote · ✓ verified
+- **[AutoGen](https://www.revuo.ai/category/ai-agent-orchestration/autogen)** — A framework for building AI agents and applications · remote
+- **[Gumroad](https://www.revuo.ai/category/ai-agent-orchestration/gumroad)** — Go from 0 to $1 · remote
+- **[LangGraph](https://www.revuo.ai/category/ai-agent-orchestration/langgraph)** — Low-level orchestration framework for building, managing, and deploying long-running, stateful agents. · remote
+- **[Make](https://www.revuo.ai/category/ai-agent-orchestration/make)** — The platform to build and manage all your AI agents and automations · `66 tools`
+- **[Swarm](https://www.revuo.ai/category/ai-agent-orchestration/swarm)** — Educational framework exploring ergonomic, lightweight multi-agent orchestration. · `39 tools` · remote
 
 ## OpenClaw Hosting Services
 
@@ -188,24 +199,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Semrush](https://www.revuo.ai/category/aeo-geo-llm-monitoring/semrush)** — Data-Driven Marketing Tools to Grow Your Business · remote
 - **[Serpstat](https://www.revuo.ai/category/aeo-geo-llm-monitoring/serpstat)** — Speed up search marketing goals achievement. · remote
 
-## AI Agent Orchestration
-
-- **[PromptShuttle](https://www.revuo.ai/category/ai-agent-orchestration/promptshuttle)** — Agent Orchestration API · `14 tools` · remote · ✓ verified
-- **[Zapier Central](https://www.revuo.ai/category/ai-agent-orchestration/zapier-central)** — Build AI teammates with Zapier Agents · `1 tool` · remote · ✓ verified
-- **[Swarm](https://www.revuo.ai/category/ai-agent-orchestration/swarm)** — Educational framework exploring ergonomic, lightweight multi-agent orchestration. · `3 tools` · remote
-- **[AutoGen](https://www.revuo.ai/category/ai-agent-orchestration/autogen)** — A framework for building AI agents and applications · remote
-- **[Gumroad](https://www.revuo.ai/category/ai-agent-orchestration/gumroad)** — Go from 0 to $1 · remote
-- **[Make](https://www.revuo.ai/category/ai-agent-orchestration/make)** — The platform to build and manage all your AI agents and automations · `66 tools`
-
-## AI Blog Writer
-
-- **[MarketMuse](https://www.revuo.ai/category/ai-blog-writer/marketmuse)** — AI Content Planning and Optimization Software · `3 tools` · remote
-- **[Frase](https://www.revuo.ai/category/ai-blog-writer/frase)** — The Agentic SEO & GEO Platform \| Rank on Google. Get Cited by AI.
-- **[Jasper](https://www.revuo.ai/category/ai-blog-writer/jasper)** — Put AI agents to work for marketing
-- **[Rytr](https://www.revuo.ai/category/ai-blog-writer/rytr)** — AI writing assistant for creating original marketing, business, and everyday content.
-- **[Surfer](https://www.revuo.ai/category/ai-blog-writer/surfer)** — Simple workflow. Maximum visibility in Google and AI Chats.
-- **[WRITER](https://www.revuo.ai/category/ai-blog-writer/writer)** — The enterprise AI platform for agentic work. · `27 tools` · remote
-
 ## AI Software Delivery (AI-SDLC)
 
 - **[Claude](https://www.revuo.ai/category/ai-software-delivery-ai-sdlc/claude)** — The AI for problem solvers — your thinking partner · `9 tools` · remote
@@ -214,6 +207,15 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Devin](https://www.revuo.ai/category/ai-software-delivery-ai-sdlc/devin)** — The first autonomous AI software engineer · `3 tools` · remote
 - **[Continue](https://www.revuo.ai/category/ai-software-delivery-ai-sdlc/continue)** — Open-source AI coding agent for VS Code, JetBrains, and more. · remote
 - **[Cursor](https://www.revuo.ai/category/ai-software-delivery-ai-sdlc/cursor)** — AI coding agent · `5 tools`
+
+## Coding Agent Remotes
+
+- **[Runpod](https://www.revuo.ai/category/coding-agent-remotes/runpod)** — AI cloud infrastructure for experimenting, training, fine-tuning, deploying, and scaling GPU workloads. · `26 tools` · remote
+- **[Modal](https://www.revuo.ai/category/coding-agent-remotes/modal)** — AI infrastructure that developers love · `8 tools` · remote
+- **[Cerebrium](https://www.revuo.ai/category/coding-agent-remotes/cerebrium)** — Real-time AI infrastructure that scales with you. · `2 tools` · remote
+- **[Aider](https://www.revuo.ai/category/coding-agent-remotes/aider)** — AI Pair Programming in Your Terminal
+- **[Northflank](https://www.revuo.ai/category/coding-agent-remotes/northflank)** — The runtime platform for AI-native companies. · remote
+- **[Omnara](https://www.revuo.ai/category/coding-agent-remotes/omnara)** — Mobile & Voice Interface for Claude Code & Codex · remote
 
 ## Finance & Payments
 
@@ -224,13 +226,13 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Lovie](https://www.revuo.ai/category/mcp-finance/lovie)** — Agent-Native Banking for AI-First Companies · remote
 - **[Ramp](https://www.revuo.ai/category/mcp-finance/ramp)** — All-in-one spend management platform with corporate cards, expenses, AP, and AI automation
 
-## Coding Agent Remotes
+## AI Blog Writer
 
-- **[Runpod](https://www.revuo.ai/category/coding-agent-remotes/runpod)** — AI cloud infrastructure for experimenting, training, fine-tuning, deploying, and scaling GPU workloads. · `26 tools` · remote
-- **[Modal](https://www.revuo.ai/category/coding-agent-remotes/modal)** — AI infrastructure that developers love · `8 tools` · remote
-- **[Aider](https://www.revuo.ai/category/coding-agent-remotes/aider)** — AI Pair Programming in Your Terminal
-- **[Northflank](https://www.revuo.ai/category/coding-agent-remotes/northflank)** — The runtime platform for AI-native companies. · remote
-- **[Omnara](https://www.revuo.ai/category/coding-agent-remotes/omnara)** — Mobile & Voice Interface for Claude Code & Codex · remote
+- **[Frase](https://www.revuo.ai/category/ai-blog-writer/frase)** — The Agentic SEO & GEO Platform \| Rank on Google. Get Cited by AI.
+- **[Jasper](https://www.revuo.ai/category/ai-blog-writer/jasper)** — Put AI agents to work for marketing
+- **[Rytr](https://www.revuo.ai/category/ai-blog-writer/rytr)** — AI writing assistant for creating original marketing, business, and everyday content.
+- **[Surfer](https://www.revuo.ai/category/ai-blog-writer/surfer)** — Simple workflow. Maximum visibility in Google and AI Chats.
+- **[WRITER](https://www.revuo.ai/category/ai-blog-writer/writer)** — The enterprise AI platform for agentic work. · `27 tools` · remote
 
 ## Tender Management
 
@@ -255,9 +257,9 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 
 ## Email Authentication Platform
 
-- **[Proofpoint](https://www.revuo.ai/category/email-authentication-platform/proofpoint)** — Enterprise Cybersecurity Solutions, Services & Training · `6 tools` · remote
 - **[Red Sift](https://www.revuo.ai/category/email-authentication-platform/red-sift)** — Creating a Fundamentally Safer Internet with Proactive Security · `3 tools` · remote
 - **[PowerDMARC](https://www.revuo.ai/category/email-authentication-platform/powerdmarc)** — Stop Email Spoofing, Increase Deliverability, Protect Domain Reputation. · `27 tools` · remote
+- **[Proofpoint](https://www.revuo.ai/category/email-authentication-platform/proofpoint)** — Enterprise Cybersecurity Solutions, Services & Training
 
 ## Employee Experience
 
