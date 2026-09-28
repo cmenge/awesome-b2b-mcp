@@ -2,35 +2,35 @@
 
 A curated, always-current list of **B2B SaaS products that expose an agent-callable MCP server** — grouped by category, each linking to its continuously-verified listing.
 
-**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-09-21.**
+**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-09-28.**
 
-193 products across 22 categories · 28 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
+199 products across 22 categories · 30 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
 
 > Why this exists: general `awesome-mcp-servers` lists catalogue OSS and dev-tool servers. This one tracks **commercial B2B SaaS** with MCP endpoints — what an agent builder or procurement researcher actually searches for. Listings are neutral and complete: competitors and vendor-operated products alike, ranked only by verified signals (claim status, then tool count). The linked Revuo page is the citable source of truth for each — capabilities, access model, and any operator affiliation.
 
 ## Contents
 
 - [MCP Servers](#mcp-servers) (85)
+- [Headerhunter CRM Software](#headerhunter-crm-software) (11)
 - [SSO Auth Bridges](#sso-auth-bridges) (11)
 - [Billing & Invoicing](#billing-invoicing) (9)
-- [Headerhunter CRM Software](#headerhunter-crm-software) (9)
 - [Cloud & Infrastructure](#cloud-infrastructure) (8)
+- [OpenClaw Hosting Services](#openclaw-hosting-services) (8)
 - [AI Agent Orchestration](#ai-agent-orchestration) (7)
-- [OpenClaw Hosting Services](#openclaw-hosting-services) (7)
+- [Coding Agent Remotes](#coding-agent-remotes) (7)
 - [AEO/GEO/LLM Monitoring](#aeogeollm-monitoring) (6)
 - [AI Software Delivery (AI-SDLC)](#ai-software-delivery-ai-sdlc) (6)
-- [Coding Agent Remotes](#coding-agent-remotes) (6)
 - [Finance & Payments](#finance-payments) (6)
 - [AI Blog Writer](#ai-blog-writer) (5)
+- [B2B SaaS Directories](#b2b-saas-directories) (5)
 - [Tender Management](#tender-management) (5)
-- [B2B SaaS Directories](#b2b-saas-directories) (4)
 - [Communication & Collaboration](#communication-collaboration) (3)
 - [Email Authentication Platform](#email-authentication-platform) (3)
 - [Employee Experience](#employee-experience) (3)
 - [Security & Auth](#security-auth) (3)
 - [Uncategorized](#uncategorized) (3)
+- [AI Photo and Video](#ai-photo-and-video) (2)
 - [PIM/PXM Software](#pimpxm-software) (2)
-- [AI Photo and Video](#ai-photo-and-video) (1)
 - [Productivity & Business](#productivity-business) (1)
 
 ## MCP Servers
@@ -39,6 +39,7 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Gmail](https://www.revuo.ai/category/mcp-servers/gmail)** — Read, search, and send Gmail messages. Manage drafts, threads, and labels; reply, forward, archive, trash, report spam, and triage your inbox. · `31 tools` · remote · ✓ verified
 - **[Google Drive](https://www.revuo.ai/category/mcp-servers/googledrive)** — Search Google Drive, upload and download files, create folders, move and rename items, and manage sharing and file permissions. · `18 tools` · remote · ✓ verified
 - **[Blockscout MCP](https://www.revuo.ai/category/mcp-servers/blockscout)** — Provide AI agents and automation tools with contextual access to blockchain data including balances, tokens, NFTs, and contract metadata. Enable multi-chain support and deliver enhanced user experience with progress notifications for long-running queries. Facilitate seamless integration with AI hosts like Claude Desktop for blockchain data analysis. · `16 tools` · remote · ✓ verified
+- **[Google Docs](https://www.revuo.ai/category/mcp-servers/googledocs)** — Create, edit, and search Google Docs. Retrieve document content and metadata, insert text, and manage document comments. · `14 tools` · remote · ✓ verified
 - **[Notion](https://www.revuo.ai/category/mcp-servers/notion)** — Search across your Notion workspace and connected sources to quickly find pages, databases, and users. View full page and database details for deeper context. Create and update pages, manage databases, move or duplicate content, and add comments to keep work organized. · `14 tools` · remote · ✓ verified
 - **[Google Sheets](https://www.revuo.ai/category/mcp-servers/googlesheets)** — Search and inspect Google Sheets, create and edit spreadsheets, scan for data issues, review edit history, and manage comments. · `13 tools` · remote · ✓ verified
 - **[Slack](https://www.revuo.ai/category/mcp-servers/slack)** — Read Slack conversations, threads, and user directories, send messages, and invite users to channels. · `11 tools` · remote · ✓ verified
@@ -51,6 +52,7 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[MLB Stats](https://www.revuo.ai/category/mcp-servers/etweisberg)** — Provide structured access to Major League Baseball statistics through an MCP server. Query and retrieve detailed baseball data including statcast, fangraphs, and baseball reference stats. Generate visualizations and integrate seamlessly with MCP-compatible clients for enhanced baseball analytics. · `46 tools` · remote
 - **[StacksFinder](https://www.revuo.ai/category/mcp-servers/hoklims)** — Discover and analyze technologies across key dimensions, then compare options side-by-side to spot the best fit. Get tailored stack recommendations for your project’s type, scale, and priorities. Create and manage reusable blueprints to align teams and accelerate delivery. · `26 tools` · remote
 - **[Paper Search](https://www.revuo.ai/category/mcp-servers/adamamer20)** — Search and download academic papers from arXiv, PubMed, bioRxiv, medRxiv, Google Scholar, Semantic Scholar, and IACR. Fetch PDFs and extract full text to accelerate literature reviews. Get consistent metadata for easier filtering, citation, and analysis. · `25 tools` · remote
+- **[AgentMail](https://www.revuo.ai/category/mcp-servers/agentmail)** — Give your AI assistant a real email inbox on your own domain. Read, search, send and reply to email from Claude or any MCP client, with mailboxes hosted by Faivelo. Works with unlimited mailboxes, so each agent or role (support@, sales@, agent@) can have its own address. Setup handles DNS for you: connect a domain and MX, SPF, DKIM and DMARC are configured automatically. Learn more at https://faivelo.com/ · `23 tools` · remote
 - **[Instagram](https://www.revuo.ai/category/mcp-servers/instagram)** — MCP server for Instagram Graph API — publish photos, reels, carousels, and stories, manage comments, view insights, and search hashtags through 25 tools. ## Features - Publish photos, carousels (2-10 items), reels, and stories - 2-step publishing handled automatically (create container then publish) - Comment management and moderation (reply, hide, delete, list replies) - Account and media insights analytics - Hashtag research (search, recent media, top media) - Business Discovery — look up other Business/Creator accounts - Content publishing rate limit check (50 posts/day) - Tagged and mentioned media tracking ## 25 Tools \*\*Account (3)\*\*: Get account info, account insights (impressions/reach/followers), list media posts \*\*Publishing (4)\*\*: Publish photo, carousel (2-10 items), reel (video), story (24h) \*\*Media (3)\*\*: Get media details, media insights, carousel children \*\*Comments (6)\*\*: List comments, get comment, reply, delete, hide/unhide, list replies \*\*Discovery (1)\*\*: Look up · `22 tools` · remote
 - **[Math](https://www.revuo.ai/category/mcp-servers/ethanhenrickson)** — Enable your LLMs to perform accurate numerical calculations with a simple API. Leverage basic arithmetic and statistical functions to enhance your applications. Simplify complex mathematical tasks effortlessly and improve your model's capabilities. · `22 tools` · remote
 - **[ai.agenttrust/mcp](https://www.revuo.ai/category/mcp-servers/agenttrust)** — Free email for AI agents, instant messaging between agents, and cloud file storage. Give your agent an @agenttrust.ai inbox to send, receive, reply, and forward emails — message other agents in real-time via A2A protocol — and upload, download, and manage files in the cloud. 19 tools, no setup required. · `19 tools` · remote
@@ -92,10 +94,8 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Lotus Wisdom](https://www.revuo.ai/category/mcp-servers/linxule)** — Lotus Wisdom is a contemplative reasoning tool inspired by the Lotus Sutra. It guides AI through structured wisdom journeys for complex problems where logic alone isn't enough. Flow through wisdom domains (skillful means, non-dual recognition, meta-cognitive), take meditative pauses, and track your path across perspectives. Start with tag='begin' to receive the full framework, then continue with tags like open, examine, integrate, and express. The tool signals when insight is ready to be spoken in your own voice. Best for multi-perspective problems, contradictions needing integration, and questions holding their own wisdom. · `2 tools` · remote
 - **[RSS Reader](https://www.revuo.ai/category/mcp-servers/kwp-lab)** — Track and browse RSS feeds with ease. Fetch the latest entries from any feed URL and extract full article content for clean, distraction-free reading. Save or analyze articles in a consistent, structured format. · `2 tools` · remote
 - **[Web Scout](https://www.revuo.ai/category/mcp-servers/pinkpixel-dev)** — Search the web and extract clean, readable text from webpages. Process multiple URLs at once to speed up research with reliable throttling and error handling. Quickly compile sources and summaries for briefs, reports, or competitive analysis. · `2 tools` · remote
-- **[Google Docs](https://www.revuo.ai/category/mcp-servers/googledocs)** — Search patents and prior art via Google Patents. No API key required. Data via SerpAPI; Smithery is not affiliated with Google. · `1 tool` · remote
 - **[Google Super](https://www.revuo.ai/category/mcp-servers/googlesuper)** — Search patents and prior art via Google Patents. No API key required. Data via SerpAPI; Smithery is not affiliated with Google. · `1 tool` · remote
 - **[Python execute](https://www.revuo.ai/category/mcp-servers/stuzhy)** — Run Python code in a secure sandbox without local setup. Declare inline dependencies and execute snippets instantly. Prototype, test, and share reproducible results with ease. · `1 tool` · remote
-- **[AgentMail](https://www.revuo.ai/category/mcp-servers/agentmail)** — Email inboxes for AI agents: send, receive, reply, search, and manage threaded email over MCP. · remote
 - **[ai.aliengiraffe/spotdb](https://www.revuo.ai/category/mcp-servers/aliengiraffe)** — Ephemeral data sandbox for AI workflows with guardrails and security
 - **[ai.com.mcp/contabo](https://www.revuo.ai/category/mcp-servers/la-rebelion)** — Contabo API (v1.0.0) as MCP tools for cloud provisioning, and management. Powered by HAPI MCP server · remote
 - **[ai.com.mcp/registry](https://www.revuo.ai/category/mcp-servers/modelcontextprotocol)** — Publish and discover MCP servers via the official MCP Registry. Powered by HAPI MCP server. · remote
@@ -115,11 +115,25 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[ai.smithery/BowenXU0126-aistudio\_hw3](https://www.revuo.ai/category/mcp-servers/bowenxu0126)** — Send personalized greetings with optional pirate flair. Compose friendly salutations for any name… · remote
 - **[ai.smithery/ImRonAI-mcp-server-browserbase](https://www.revuo.ai/category/mcp-servers/imronai)** — Automate cloud browsers to navigate websites, interact with elements, and extract structured data.… · remote
 - **[ai.smithery/PabloLec-keyprobe](https://www.revuo.ai/category/mcp-servers/pablolec)** — Audit certificates and keystores to surface expiry risks, weak algorithms, and misconfigurations.… · remote
-- **[Clay](https://www.revuo.ai/category/mcp-servers/clay-inc)** — MCP server for controlling HomeMatic smart home devices via the CCU JSON-RPC API · `20 tools`
+- **[Clay](https://www.revuo.ai/category/mcp-servers/clay-inc)** — Find and quote agent capabilities, then pay only the selected x402 execution URL. · `20 tools` · remote
 - **[FrankfurterMCP](https://www.revuo.ai/category/mcp-servers/anirbanbasu)** — A MCP server for the Frankfurter API for currency exchange rates. · remote
 - **[Linkup](https://www.revuo.ai/category/mcp-servers/linkupplatform)** — Search the web in real time to get trustworthy, source-backed answers. Find the latest news and co… · `2 tools` · remote
 - **[NetworkCalc](https://www.revuo.ai/category/mcp-servers/ramadasmr)** — Look up DNS information for any domain to troubleshoot issues and gather insights. Get fast, relia… · `5 tools` · remote
 - **[Ticktick](https://www.revuo.ai/category/mcp-servers/ticktick)** — MCP server for TickTick task management: field-preserving updates and completion tracking.
+
+## Headerhunter CRM Software
+
+- **[Clockwork Recruiting](https://www.revuo.ai/category/headerhunter-crm-software/clockwork-recruiting)** — Software for retained executive search, done right. · `81 tools` · remote
+- **[Recruit CRM](https://www.revuo.ai/category/headerhunter-crm-software/recruit-crm)** — Most intuitive AI-first recruiting software · `81 tools` · remote
+- **[Recruiterflow](https://www.revuo.ai/category/headerhunter-crm-software/recruiterflow)** — AI-native intelligence. Enterprise-grade depth. · `81 tools` · remote
+- **[Zoho Recruit](https://www.revuo.ai/category/headerhunter-crm-software/zoho-recruit)** — All-in-one recruitment software for HR teams and staffing agencies. · `81 tools` · remote
+- **[Workday](https://www.revuo.ai/category/headerhunter-crm-software/workday)** — The Enterprise AI Platform for HR, Finance, and IT · `3 tools` · remote
+- **[ADP](https://www.revuo.ai/category/headerhunter-crm-software/adp)** — Payroll, HR and Tax Services \| Experience better HR and payroll
+- **[Ashby](https://www.revuo.ai/category/headerhunter-crm-software/ashby)** — All-in-one Recruiting Software for Ambitious Teams · remote
+- **[Greenhouse](https://www.revuo.ai/category/headerhunter-crm-software/greenhouse)** — The only hiring platform you’ll ever need · remote
+- **[hunter](https://www.revuo.ai/category/headerhunter-crm-software/hunter-software)** — Recruiting-Software für Personalberater & Recruiter · remote
+- **[Lever](https://www.revuo.ai/category/headerhunter-crm-software/lever)** — AI-Powered Hiring Platform · remote
+- **[Personio](https://www.revuo.ai/category/headerhunter-crm-software/personio)** — Core HR, Talent und Lohnabrechnung – in einer KI-gestützten Plattform, die mit Ihnen wächst. · remote
 
 ## SSO Auth Bridges
 
@@ -147,18 +161,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[sevdesk](https://www.revuo.ai/category/billing-invoicing/sevdesk)** — All-in-one digital accounting software for freelancers and small businesses in Germany
 - **[Wave](https://www.revuo.ai/category/billing-invoicing/wave)** — Small business software for easy accounting, invoicing, payments, and payroll.
 
-## Headerhunter CRM Software
-
-- **[Recruit CRM](https://www.revuo.ai/category/headerhunter-crm-software/recruit-crm)** — Most intuitive AI-first recruiting software · `81 tools` · remote
-- **[Zoho Recruit](https://www.revuo.ai/category/headerhunter-crm-software/zoho-recruit)** — All-in-one recruitment software for HR teams and staffing agencies. · `81 tools` · remote
-- **[Workday](https://www.revuo.ai/category/headerhunter-crm-software/workday)** — The Enterprise AI Platform for HR, Finance, and IT · `3 tools` · remote
-- **[ADP](https://www.revuo.ai/category/headerhunter-crm-software/adp)** — Payroll, HR and Tax Services \| Experience better HR and payroll
-- **[Ashby](https://www.revuo.ai/category/headerhunter-crm-software/ashby)** — All-in-one Recruiting Software for Ambitious Teams · remote
-- **[Greenhouse](https://www.revuo.ai/category/headerhunter-crm-software/greenhouse)** — The only hiring platform you’ll ever need · remote
-- **[hunter](https://www.revuo.ai/category/headerhunter-crm-software/hunter-software)** — Recruiting-Software für Personalberater & Recruiter · remote
-- **[Lever](https://www.revuo.ai/category/headerhunter-crm-software/lever)** — AI-Powered Hiring Platform · remote
-- **[Personio](https://www.revuo.ai/category/headerhunter-crm-software/personio)** — Core HR, Talent und Lohnabrechnung – in einer KI-gestützten Plattform, die mit Ihnen wächst. · remote
-
 ## Cloud & Infrastructure
 
 - **[Better Stack](https://www.revuo.ai/category/mcp-cloud-infra/better-stack)** — The AI SRE observability stack · `75 tools` · remote · ✓ verified
@@ -170,6 +172,17 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[OVHcloud](https://www.revuo.ai/category/mcp-cloud-infra/ovhcloud)** — European cloud provider delivering high-performance bare metal, VPS, and public cloud solutions with data sovereignty. · remote
 - **[Scaleway](https://www.revuo.ai/category/mcp-cloud-infra/scaleway)** — European Cloud & AI.
 
+## OpenClaw Hosting Services
+
+- **[Hostinger OpenClaw VPS](https://www.revuo.ai/category/openclaw-hosting-services/hostinger-openclaw-vps)** — Personal AI assistant with multi-channel messaging support (formerly Moltbot/Clawdbot) · `29 tools` · remote
+- **[OpenClaw](https://www.revuo.ai/category/openclaw-hosting-services/openclaw)** — The AI that actually does things. · `12 tools` · remote
+- **[Railway](https://www.revuo.ai/category/openclaw-hosting-services/railway)** — Ship software peacefully with the all-in-one intelligent cloud provider · `8 tools` · remote
+- **[Heroku](https://www.revuo.ai/category/openclaw-hosting-services/heroku)** — The Cloud Application Platform for Developers
+- **[LangChain](https://www.revuo.ai/category/openclaw-hosting-services/langchain)** — Observe, Evaluate, and Deploy Reliable AI Agents · `2 tools` · remote
+- **[MyClaw](https://www.revuo.ai/category/openclaw-hosting-services/myclaw)** — Managed cloud hosting for OpenClaw & Clawdbot — your personal AI assistant, always on, no setup needed. · remote
+- **[Render](https://www.revuo.ai/category/openclaw-hosting-services/render)** — Migrate apps from Heroku with near-zero downtime. · `15 tools` · remote
+- **[xCloud](https://www.revuo.ai/category/openclaw-hosting-services/xcloud)** — Next-Gen Managed Hosting & Server Management for WordPress, Laravel & PHP Applications
+
 ## AI Agent Orchestration
 
 - **[PromptShuttle](https://www.revuo.ai/category/ai-agent-orchestration/promptshuttle)** — Agent Orchestration API · `14 tools` · remote · ✓ verified
@@ -180,15 +193,15 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Make](https://www.revuo.ai/category/ai-agent-orchestration/make)** — The platform to build and manage all your AI agents and automations · `66 tools`
 - **[Swarm](https://www.revuo.ai/category/ai-agent-orchestration/swarm)** — Educational framework exploring ergonomic, lightweight multi-agent orchestration. · `39 tools` · remote
 
-## OpenClaw Hosting Services
+## Coding Agent Remotes
 
-- **[OpenClaw](https://www.revuo.ai/category/openclaw-hosting-services/openclaw)** — The AI that actually does things. · `12 tools` · remote
-- **[Railway](https://www.revuo.ai/category/openclaw-hosting-services/railway)** — Ship software peacefully with the all-in-one intelligent cloud provider · `8 tools` · remote
-- **[Heroku](https://www.revuo.ai/category/openclaw-hosting-services/heroku)** — The Cloud Application Platform for Developers
-- **[LangChain](https://www.revuo.ai/category/openclaw-hosting-services/langchain)** — Observe, Evaluate, and Deploy Reliable AI Agents · `2 tools` · remote
-- **[MyClaw](https://www.revuo.ai/category/openclaw-hosting-services/myclaw)** — Managed cloud hosting for OpenClaw & Clawdbot — your personal AI assistant, always on, no setup needed.
-- **[Render](https://www.revuo.ai/category/openclaw-hosting-services/render)** — Migrate apps from Heroku with near-zero downtime. · `15 tools` · remote
-- **[xCloud](https://www.revuo.ai/category/openclaw-hosting-services/xcloud)** — Next-Gen Managed Hosting & Server Management for WordPress, Laravel & PHP Applications
+- **[Hugging Face Inference Endpoints](https://www.revuo.ai/category/coding-agent-remotes/hugging-face-inference-endpoints)** — Easily deploy your AI models to production on a fully managed platform. · `8 tools` · remote · ✓ verified
+- **[Runpod](https://www.revuo.ai/category/coding-agent-remotes/runpod)** — AI cloud infrastructure for experimenting, training, fine-tuning, deploying, and scaling GPU workloads. · `26 tools` · remote
+- **[Modal](https://www.revuo.ai/category/coding-agent-remotes/modal)** — AI infrastructure that developers love · `8 tools` · remote
+- **[Cerebrium](https://www.revuo.ai/category/coding-agent-remotes/cerebrium)** — Real-time AI infrastructure that scales with you. · `2 tools` · remote
+- **[Aider](https://www.revuo.ai/category/coding-agent-remotes/aider)** — AI Pair Programming in Your Terminal
+- **[Northflank](https://www.revuo.ai/category/coding-agent-remotes/northflank)** — The runtime platform for AI-native companies. · remote
+- **[Omnara](https://www.revuo.ai/category/coding-agent-remotes/omnara)** — Mobile & Voice Interface for Claude Code & Codex · remote
 
 ## AEO/GEO/LLM Monitoring
 
@@ -208,15 +221,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Continue](https://www.revuo.ai/category/ai-software-delivery-ai-sdlc/continue)** — Open-source AI coding agent for VS Code, JetBrains, and more. · remote
 - **[Cursor](https://www.revuo.ai/category/ai-software-delivery-ai-sdlc/cursor)** — AI coding agent · `5 tools`
 
-## Coding Agent Remotes
-
-- **[Runpod](https://www.revuo.ai/category/coding-agent-remotes/runpod)** — AI cloud infrastructure for experimenting, training, fine-tuning, deploying, and scaling GPU workloads. · `26 tools` · remote
-- **[Modal](https://www.revuo.ai/category/coding-agent-remotes/modal)** — AI infrastructure that developers love · `8 tools` · remote
-- **[Cerebrium](https://www.revuo.ai/category/coding-agent-remotes/cerebrium)** — Real-time AI infrastructure that scales with you. · `2 tools` · remote
-- **[Aider](https://www.revuo.ai/category/coding-agent-remotes/aider)** — AI Pair Programming in Your Terminal
-- **[Northflank](https://www.revuo.ai/category/coding-agent-remotes/northflank)** — The runtime platform for AI-native companies. · remote
-- **[Omnara](https://www.revuo.ai/category/coding-agent-remotes/omnara)** — Mobile & Voice Interface for Claude Code & Codex · remote
-
 ## Finance & Payments
 
 - **[Stripe Atlas](https://www.revuo.ai/category/mcp-finance/stripe-atlas)** — Start your company in a few clicks. Bank, fundraise, and charge customers immediately after incorporating. · `18 tools` · remote · ✓ verified
@@ -228,11 +232,19 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 
 ## AI Blog Writer
 
-- **[Frase](https://www.revuo.ai/category/ai-blog-writer/frase)** — The Agentic SEO & GEO Platform \| Rank on Google. Get Cited by AI.
+- **[Frase](https://www.revuo.ai/category/ai-blog-writer/frase)** — The Agentic SEO & GEO Platform \| Rank on Google. Get Cited by AI. · remote
 - **[Jasper](https://www.revuo.ai/category/ai-blog-writer/jasper)** — Put AI agents to work for marketing
 - **[Rytr](https://www.revuo.ai/category/ai-blog-writer/rytr)** — AI writing assistant for creating original marketing, business, and everyday content.
 - **[Surfer](https://www.revuo.ai/category/ai-blog-writer/surfer)** — Simple workflow. Maximum visibility in Google and AI Chats.
 - **[WRITER](https://www.revuo.ai/category/ai-blog-writer/writer)** — The enterprise AI platform for agentic work. · `27 tools` · remote
+
+## B2B SaaS Directories
+
+- **[Revuo](https://www.revuo.ai/category/b2b-saas-directories/revuo)** — AI-powered software directory. Find, compare, and choose the best software with curated reviews and feature comparisons. · `14 tools` · remote · ✓ verified
+- **[Smithery](https://www.revuo.ai/category/b2b-saas-directories/smithery)** — Connect agents to MCPs in minutes · `46 tools` · remote
+- **[G2](https://www.revuo.ai/category/b2b-saas-directories/g2)** — The world’s largest and most trusted data source for B2B software. · remote
+- **[GetApp](https://www.revuo.ai/category/b2b-saas-directories/getapp)** — Where business leaders find software · `7 tools` · remote
+- **[Uneed](https://www.revuo.ai/category/b2b-saas-directories/uneed)** — Launch. Get seen. Grow. · remote
 
 ## Tender Management
 
@@ -241,13 +253,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Brainial](https://www.revuo.ai/category/tender-management/brainial)** — AI-native platform for bid and tender management · remote
 - **[GovTribe](https://www.revuo.ai/category/tender-management/govtribe)** — Government Contracting Intelligence Platform · remote
 - **[Minerva](https://www.revuo.ai/category/tender-management/minerva)** — Discover & win public tenders with AI.
-
-## B2B SaaS Directories
-
-- **[Revuo](https://www.revuo.ai/category/b2b-saas-directories/revuo)** — AI-powered software directory. Find, compare, and choose the best software with curated reviews and feature comparisons. · `14 tools` · remote · ✓ verified
-- **[Smithery](https://www.revuo.ai/category/b2b-saas-directories/smithery)** — Connect agents to MCPs in minutes · `46 tools` · remote
-- **[G2](https://www.revuo.ai/category/b2b-saas-directories/g2)** — The world’s largest and most trusted data source for B2B software. · remote
-- **[GetApp](https://www.revuo.ai/category/b2b-saas-directories/getapp)** — Where business leaders find software · `7 tools` · remote
 
 ## Communication & Collaboration
 
@@ -279,14 +284,15 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Contabo](https://www.revuo.ai/category/undefined/contabo)** — Cloud VPS & Dedicated Servers for a Price You'll Love · remote
 - **[Similarweb](https://www.revuo.ai/category/undefined/similarweb)** — The future of market intelligence is here. Meet AI Studio — your AI-powered Similarweb expert · remote
 
+## AI Photo and Video
+
+- **[Aragon](https://www.revuo.ai/category/ai-photo-and-video/aragon)** — The Leading AI Headshot Generator
+- **[PhotoAI](https://www.revuo.ai/category/ai-photo-and-video/photoai)** — #1 AI Photographer; Fire your photographer; Take stunning photos of people with the first AI Photographer! · remote
+
 ## PIM/PXM Software
 
 - **[FacetFlux](https://www.revuo.ai/category/pim-software/facetflux)** — AI product data enrichment for industrial suppliers · `44 tools` · remote · ✓ verified
 - **[Optivise](https://www.revuo.ai/category/pim-software/optivise)** — The fastest way to list and sell on Mirakl Marketplaces · `2 tools` · remote · ✓ verified
-
-## AI Photo and Video
-
-- **[Aragon](https://www.revuo.ai/category/ai-photo-and-video/aragon)** — The Leading AI Headshot Generator
 
 ## Productivity & Business
 
