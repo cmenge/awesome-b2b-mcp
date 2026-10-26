@@ -2,9 +2,9 @@
 
 A curated, always-current list of **B2B SaaS products that expose an agent-callable MCP server** — grouped by category, each linking to its continuously-verified listing.
 
-**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-10-19.**
+**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-10-26.**
 
-213 products across 22 categories · 33 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
+218 products across 22 categories · 33 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
 
 > Why this exists: general `awesome-mcp-servers` lists catalogue OSS and dev-tool servers. This one tracks **commercial B2B SaaS** with MCP endpoints — what an agent builder or procurement researcher actually searches for. Listings are neutral and complete: competitors and vendor-operated products alike, ranked only by verified signals (claim status, then tool count). The linked Revuo page is the citable source of truth for each — capabilities, access model, and any operator affiliation.
 
@@ -13,22 +13,22 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - [MCP Servers](#mcp-servers) (84)
 - [Billing & Invoicing](#billing-invoicing) (13)
 - [Headerhunter CRM Software](#headerhunter-crm-software) (13)
+- [SSO Auth Bridges](#sso-auth-bridges) (12)
 - [B2B SaaS Directories](#b2b-saas-directories) (11)
 - [Coding Agent Remotes](#coding-agent-remotes) (11)
-- [SSO Auth Bridges](#sso-auth-bridges) (10)
-- [AI Agent Orchestration](#ai-agent-orchestration) (9)
+- [AEO/GEO/LLM Monitoring](#aeogeollm-monitoring) (8)
+- [AI Agent Orchestration](#ai-agent-orchestration) (8)
 - [OpenClaw Hosting Services](#openclaw-hosting-services) (8)
 - [AI Software Delivery (AI-SDLC)](#ai-software-delivery-ai-sdlc) (7)
-- [AEO/GEO/LLM Monitoring](#aeogeollm-monitoring) (6)
-- [Tender Management](#tender-management) (6)
+- [Tender Management](#tender-management) (7)
 - [AI Blog Writer](#ai-blog-writer) (5)
 - [Cloud & Infrastructure](#cloud-infrastructure) (5)
 - [Finance & Payments](#finance-payments) (5)
 - [Security & Auth](#security-auth) (4)
+- [AI Photo and Video](#ai-photo-and-video) (3)
 - [Communication & Collaboration](#communication-collaboration) (3)
 - [Employee Experience](#employee-experience) (3)
 - [Uncategorized](#uncategorized) (3)
-- [AI Photo and Video](#ai-photo-and-video) (2)
 - [Email Authentication Platform](#email-authentication-platform) (2)
 - [PIM/PXM Software](#pimpxm-software) (2)
 - [Productivity & Business](#productivity-business) (1)
@@ -152,6 +152,21 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Personio](https://www.revuo.ai/category/headerhunter-crm-software/personio)** — Core HR, Talent und Lohnabrechnung – in einer KI-gestützten Plattform, die mit Ihnen wächst. · remote
 - **[Rippling](https://www.revuo.ai/category/headerhunter-crm-software/rippling)** — AI that knows your company, and acts like it · remote
 
+## SSO Auth Bridges
+
+- **[WorkOS](https://www.revuo.ai/category/sso-auth-bridges/workos)** — Your app, Enterprise Ready. · `127 tools` · remote · ✓ verified
+- **[Supabase Auth](https://www.revuo.ai/category/sso-auth-bridges/supabase-auth)** — Built-in user management · `29 tools` · remote · ✓ verified
+- **[Microsoft Entra ID](https://www.revuo.ai/category/sso-auth-bridges/microsoft-entra-id)** — Prevent identity attacks and secure access to apps and resources. · `3 tools` · remote · ✓ verified
+- **[Clerk](https://www.revuo.ai/category/sso-auth-bridges/clerk)** — More than authentication, Complete User Management · `2 tools` · remote · ✓ verified
+- **[Keycloak](https://www.revuo.ai/category/sso-auth-bridges/keycloak)** — Open source identity and access management solution for single sign-on and authentication. · `128 tools` · remote
+- **[Skycloak](https://www.revuo.ai/category/sso-auth-bridges/skycloak)** — Managed identity for your apps, without the auth infrastructure. · `128 tools` · remote
+- **[Ping Identity](https://www.revuo.ai/category/sso-auth-bridges/ping-identity)** — Identity Security for the Digital Enterprise · `35 tools` · remote
+- **[Auth0](https://www.revuo.ai/category/sso-auth-bridges/auth0)** — Secure AI agents, humans, and whatever comes next · `6 tools` · remote
+- **[FusionAuth](https://www.revuo.ai/category/sso-auth-bridges/fusionauth)** — Identity Without Constraints · `6 tools` · remote
+- **[Kinde](https://www.revuo.ai/category/sso-auth-bridges/kinde)** — Modern auth and billing for engineers. The fully integrated developer platform. · remote
+- **[Okta](https://www.revuo.ai/category/sso-auth-bridges/okta)** — Secure Identity for Employees, Customers, and AI
+- **[OneLogin](https://www.revuo.ai/category/sso-auth-bridges/onelogin)** — Access without friction. Security without compromise.
+
 ## B2B SaaS Directories
 
 - **[Revuo](https://www.revuo.ai/category/b2b-saas-directories/revuo)** — AI-powered software directory. Find, compare, and choose the best software with curated reviews and feature comparisons. · `14 tools` · remote · ✓ verified
@@ -172,26 +187,24 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Hugging Face Inference Endpoints](https://www.revuo.ai/category/coding-agent-remotes/hugging-face-inference-endpoints)** — Easily deploy your AI models to production on a fully managed platform. · `8 tools` · remote · ✓ verified
 - **[NetBird](https://www.revuo.ai/category/coding-agent-remotes/netbird)** — The Only Secure Access Platform You’ll Ever Need. · `328 tools` · remote
 - **[Runpod](https://www.revuo.ai/category/coding-agent-remotes/runpod)** — AI cloud infrastructure for experimenting, training, fine-tuning, deploying, and scaling GPU workloads. · `26 tools` · remote
+- **[Omnara](https://www.revuo.ai/category/coding-agent-remotes/omnara)** — Mobile & Voice Interface for Claude Code & Codex · `22 tools` · remote
 - **[Modal](https://www.revuo.ai/category/coding-agent-remotes/modal)** — AI infrastructure that developers love · `8 tools` · remote
 - **[Cerebrium](https://www.revuo.ai/category/coding-agent-remotes/cerebrium)** — Real-time AI infrastructure that scales with you. · `2 tools` · remote
 - **[Aider](https://www.revuo.ai/category/coding-agent-remotes/aider)** — AI Pair Programming in Your Terminal
 - **[DeepInfra](https://www.revuo.ai/category/coding-agent-remotes/deepinfra)** — AI inference cloud for open-source models with developer-friendly APIs, private deployments, and GPU infrastructure. · remote
 - **[Northflank](https://www.revuo.ai/category/coding-agent-remotes/northflank)** — The runtime platform for AI-native companies. · remote
-- **[Omnara](https://www.revuo.ai/category/coding-agent-remotes/omnara)** — Mobile & Voice Interface for Claude Code & Codex · remote
 - **[Tailscale](https://www.revuo.ai/category/coding-agent-remotes/tailscale)** — The best secure connectivity platform for the AI era.
 
-## SSO Auth Bridges
+## AEO/GEO/LLM Monitoring
 
-- **[WorkOS](https://www.revuo.ai/category/sso-auth-bridges/workos)** — Your app, Enterprise Ready. · `127 tools` · remote · ✓ verified
-- **[Supabase Auth](https://www.revuo.ai/category/sso-auth-bridges/supabase-auth)** — Built-in user management · `29 tools` · remote · ✓ verified
-- **[Microsoft Entra ID](https://www.revuo.ai/category/sso-auth-bridges/microsoft-entra-id)** — Prevent identity attacks and secure access to apps and resources. · `3 tools` · remote · ✓ verified
-- **[Clerk](https://www.revuo.ai/category/sso-auth-bridges/clerk)** — More than authentication, Complete User Management · `2 tools` · remote · ✓ verified
-- **[Keycloak](https://www.revuo.ai/category/sso-auth-bridges/keycloak)** — Open source identity and access management solution for single sign-on and authentication. · `128 tools` · remote
-- **[Ping Identity](https://www.revuo.ai/category/sso-auth-bridges/ping-identity)** — Identity Security for the Digital Enterprise · `35 tools` · remote
-- **[Auth0](https://www.revuo.ai/category/sso-auth-bridges/auth0)** — Secure AI agents, humans, and whatever comes next · `6 tools` · remote
-- **[FusionAuth](https://www.revuo.ai/category/sso-auth-bridges/fusionauth)** — Identity Without Constraints · `6 tools` · remote
-- **[Kinde](https://www.revuo.ai/category/sso-auth-bridges/kinde)** — Modern auth and billing for engineers. The fully integrated developer platform.
-- **[OneLogin](https://www.revuo.ai/category/sso-auth-bridges/onelogin)** — Access without friction. Security without compromise.
+- **[Ahrefs](https://www.revuo.ai/category/aeo-geo-llm-monitoring/ahrefs)** — AI Marketing Platform Powered by Big Data · `108 tools` · remote · ✓ verified
+- **[BrandKarma](https://www.revuo.ai/category/aeo-geo-llm-monitoring/brandkarma)** — AI Visibility and SEO for e-Commerce · `71 tools` · remote · ✓ verified
+- **[MentionBird](https://www.revuo.ai/category/aeo-geo-llm-monitoring/mentionbird)** — Win the customers who ask AI what to buy. · `55 tools` · remote
+- **[Peec AI](https://www.revuo.ai/category/aeo-geo-llm-monitoring/peec-ai)** — AI Search Analytics for Marketing Teams · `11 tools` · remote
+- **[RankZap](https://www.revuo.ai/category/aeo-geo-llm-monitoring/rankzap-seo)** — SEO audits, keyword research, AI article drafts and client reports. · `9 tools` · remote
+- **[Profound](https://www.revuo.ai/category/aeo-geo-llm-monitoring/profound)** — Optimize Your Brand's Visibility in AI Search · `2 tools` · remote
+- **[Semrush](https://www.revuo.ai/category/aeo-geo-llm-monitoring/semrush)** — Data-Driven Marketing Tools to Grow Your Business · remote
+- **[Serpstat](https://www.revuo.ai/category/aeo-geo-llm-monitoring/serpstat)** — Speed up search marketing goals achievement. · remote
 
 ## AI Agent Orchestration
 
@@ -202,13 +215,12 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[AutoGen](https://www.revuo.ai/category/ai-agent-orchestration/autogen)** — A framework for building AI agents and applications · remote
 - **[Gumroad](https://www.revuo.ai/category/ai-agent-orchestration/gumroad)** — Go from 0 to $1 · remote
 - **[Ko-fi](https://www.revuo.ai/category/ai-agent-orchestration/ko-fi)** — Love what you do and make money too. · remote
-- **[LangGraph](https://www.revuo.ai/category/ai-agent-orchestration/langgraph)** — Low-level orchestration framework for building, managing, and deploying long-running, stateful agents. · remote
 - **[Make](https://www.revuo.ai/category/ai-agent-orchestration/make)** — The platform to build and manage all your AI agents and automations · `86 tools`
 
 ## OpenClaw Hosting Services
 
 - **[xCloud](https://www.revuo.ai/category/openclaw-hosting-services/xcloud)** — Next-Gen Managed Hosting & Server Management for WordPress, Laravel & PHP Applications · `78 tools` · remote
-- **[Hostinger OpenClaw VPS](https://www.revuo.ai/category/openclaw-hosting-services/hostinger-openclaw-vps)** — Personal AI assistant with multi-channel messaging support (formerly Moltbot/Clawdbot) · `29 tools` · remote
+- **[Hostinger OpenClaw VPS](https://www.revuo.ai/category/openclaw-hosting-services/hostinger-openclaw-vps)** — Personal AI assistant with multi-channel messaging support (formerly Moltbot/Clawdbot) · `17 tools` · remote
 - **[OpenClaw](https://www.revuo.ai/category/openclaw-hosting-services/openclaw)** — The AI that actually does things. · `12 tools` · remote
 - **[Railway](https://www.revuo.ai/category/openclaw-hosting-services/railway)** — Ship software peacefully with the all-in-one intelligent cloud provider · `8 tools` · remote
 - **[Heroku](https://www.revuo.ai/category/openclaw-hosting-services/heroku)** — The Cloud Application Platform for Developers
@@ -226,19 +238,11 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Continue](https://www.revuo.ai/category/ai-software-delivery-ai-sdlc/continue)** — Open-source AI coding agent for VS Code, JetBrains, and more. · remote
 - **[Cursor](https://www.revuo.ai/category/ai-software-delivery-ai-sdlc/cursor)** — AI coding agent · `5 tools`
 
-## AEO/GEO/LLM Monitoring
-
-- **[Ahrefs](https://www.revuo.ai/category/aeo-geo-llm-monitoring/ahrefs)** — AI Marketing Platform Powered by Big Data · `108 tools` · remote · ✓ verified
-- **[BrandKarma](https://www.revuo.ai/category/aeo-geo-llm-monitoring/brandkarma)** — AI Visibility and SEO for e-Commerce · `71 tools` · remote · ✓ verified
-- **[Peec AI](https://www.revuo.ai/category/aeo-geo-llm-monitoring/peec-ai)** — AI Search Analytics for Marketing Teams · `11 tools` · remote
-- **[Profound](https://www.revuo.ai/category/aeo-geo-llm-monitoring/profound)** — Optimize Your Brand's Visibility in AI Search · `2 tools` · remote
-- **[Semrush](https://www.revuo.ai/category/aeo-geo-llm-monitoring/semrush)** — Data-Driven Marketing Tools to Grow Your Business · remote
-- **[Serpstat](https://www.revuo.ai/category/aeo-geo-llm-monitoring/serpstat)** — Speed up search marketing goals achievement. · remote
-
 ## Tender Management
 
 - **[Tender Radar](https://www.revuo.ai/category/tender-management/tender-radar)** — Find government contracts that match. · `68 tools` · remote · ✓ verified
 - **[SamSearch](https://www.revuo.ai/category/tender-management/samsearch)** — AI for Government Contracting \| Contract Search & Proposal Generator · `12 tools` · remote
+- **[Responsive](https://www.revuo.ai/category/tender-management/responsive)** — AI-powered RFP software; Fast, trusted answers that win deals · `5 tools` · remote
 - **[RocketDocs](https://www.revuo.ai/category/tender-management/rocketdocs)** — Response management platform for regulated industries with private AI. · `1 tool` · remote
 - **[Brainial](https://www.revuo.ai/category/tender-management/brainial)** — AI-native platform for bid and tender management · remote
 - **[GovTribe](https://www.revuo.ai/category/tender-management/govtribe)** — Government Contracting Intelligence Platform · remote
@@ -246,10 +250,10 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 
 ## AI Blog Writer
 
+- **[RankYak](https://www.revuo.ai/category/ai-blog-writer/rankyak)** — Your all-in-one SEO platform that finds keywords, writes content, and builds backlinks — boosting your visibility in Google and ChatGPT on full autopilot. · `9 tools` · remote
 - **[Frase](https://www.revuo.ai/category/ai-blog-writer/frase)** — The Agentic SEO & GEO Platform \| Rank on Google. Get Cited by AI. · remote
 - **[Jasper](https://www.revuo.ai/category/ai-blog-writer/jasper)** — Put AI agents to work for marketing
 - **[Rytr](https://www.revuo.ai/category/ai-blog-writer/rytr)** — AI writing assistant for creating original marketing, business, and everyday content.
-- **[Surfer](https://www.revuo.ai/category/ai-blog-writer/surfer)** — Simple workflow. Maximum visibility in Google and AI Chats.
 - **[WRITER](https://www.revuo.ai/category/ai-blog-writer/writer)** — The enterprise AI platform for agentic work. · `10 tools` · remote
 
 ## Cloud & Infrastructure
@@ -275,6 +279,12 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Palisade](https://www.revuo.ai/category/mcp-security/palisade-email)** — AI-First DMARC Agent for IT Teams and MSPs. · remote
 - **[StatusCake](https://www.revuo.ai/category/mcp-security/statuscake)** — Uptime monitoring that keeps your website online · remote
 
+## AI Photo and Video
+
+- **[Dreamwave](https://www.revuo.ai/category/ai-photo-and-video/dreamwave)** — Professional headshots in minutes, made with AI · `4 tools` · remote
+- **[Aragon](https://www.revuo.ai/category/ai-photo-and-video/aragon)** — The Leading AI Headshot Generator
+- **[PhotoAI](https://www.revuo.ai/category/ai-photo-and-video/photoai)** — #1 AI Photographer; Fire your photographer; Take stunning photos of people with the first AI Photographer! · remote
+
 ## Communication & Collaboration
 
 - **[Rootly](https://www.revuo.ai/category/mcp-communication/rootly)** — AI-powered incident management and on-call operations for modern engineering teams. · `19 tools` · remote
@@ -292,11 +302,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Zapier](https://www.revuo.ai/category/undefined/zapier)** — Automate AI Workflows, Agents, and Apps · `1 tool` · remote · ✓ verified
 - **[Contabo](https://www.revuo.ai/category/undefined/contabo)** — Cloud VPS & Dedicated Servers for a Price You'll Love · remote
 - **[Similarweb](https://www.revuo.ai/category/undefined/similarweb)** — The future of market intelligence is here. Meet AI Studio — your AI-powered Similarweb expert · remote
-
-## AI Photo and Video
-
-- **[Aragon](https://www.revuo.ai/category/ai-photo-and-video/aragon)** — The Leading AI Headshot Generator
-- **[PhotoAI](https://www.revuo.ai/category/ai-photo-and-video/photoai)** — #1 AI Photographer; Fire your photographer; Take stunning photos of people with the first AI Photographer! · remote
 
 ## Email Authentication Platform
 
