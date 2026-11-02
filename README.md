@@ -2,21 +2,21 @@
 
 A curated, always-current list of **B2B SaaS products that expose an agent-callable MCP server** — grouped by category, each linking to its continuously-verified listing.
 
-**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-10-26.**
+**Auto-synced from [Revuo](https://www.revuo.ai) · last updated 2026-11-02.**
 
-218 products across 22 categories · 33 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
+223 products across 22 categories · 34 with a verified vendor claim. This file is generated from Revuo's public directory API — to refresh it, run `node generate.mjs`.
 
 > Why this exists: general `awesome-mcp-servers` lists catalogue OSS and dev-tool servers. This one tracks **commercial B2B SaaS** with MCP endpoints — what an agent builder or procurement researcher actually searches for. Listings are neutral and complete: competitors and vendor-operated products alike, ranked only by verified signals (claim status, then tool count). The linked Revuo page is the citable source of truth for each — capabilities, access model, and any operator affiliation.
 
 ## Contents
 
-- [MCP Servers](#mcp-servers) (84)
+- [MCP Servers](#mcp-servers) (85)
+- [B2B SaaS Directories](#b2b-saas-directories) (14)
 - [Billing & Invoicing](#billing-invoicing) (13)
 - [Headerhunter CRM Software](#headerhunter-crm-software) (13)
 - [SSO Auth Bridges](#sso-auth-bridges) (12)
-- [B2B SaaS Directories](#b2b-saas-directories) (11)
 - [Coding Agent Remotes](#coding-agent-remotes) (11)
-- [AEO/GEO/LLM Monitoring](#aeogeollm-monitoring) (8)
+- [AEO/GEO/LLM Monitoring](#aeogeollm-monitoring) (9)
 - [AI Agent Orchestration](#ai-agent-orchestration) (8)
 - [OpenClaw Hosting Services](#openclaw-hosting-services) (8)
 - [AI Software Delivery (AI-SDLC)](#ai-software-delivery-ai-sdlc) (7)
@@ -95,7 +95,7 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Lotus Wisdom](https://www.revuo.ai/category/mcp-servers/linxule)** — Lotus Wisdom is a contemplative reasoning tool inspired by the Lotus Sutra. It guides AI through structured wisdom journeys for complex problems where logic alone isn't enough. Flow through wisdom domains (skillful means, non-dual recognition, meta-cognitive), take meditative pauses, and track your path across perspectives. Start with tag='begin' to receive the full framework, then continue with tags like open, examine, integrate, and express. The tool signals when insight is ready to be spoken in your own voice. Best for multi-perspective problems, contradictions needing integration, and questions holding their own wisdom. · `2 tools` · remote
 - **[RSS Reader](https://www.revuo.ai/category/mcp-servers/kwp-lab)** — Track and browse RSS feeds with ease. Fetch the latest entries from any feed URL and extract full article content for clean, distraction-free reading. Save or analyze articles in a consistent, structured format. · `2 tools` · remote
 - **[Web Scout](https://www.revuo.ai/category/mcp-servers/pinkpixel-dev)** — Search the web and extract clean, readable text from webpages. Process multiple URLs at once to speed up research with reliable throttling and error handling. Quickly compile sources and summaries for briefs, reports, or competitive analysis. · `2 tools` · remote
-- **[Google Super](https://www.revuo.ai/category/mcp-servers/googlesuper)** — Search patents and prior art via Google Patents. No API key required. Data via SerpAPI; Smithery is not affiliated with Google. · `1 tool` · remote
+- **[Google Super](https://www.revuo.ai/category/mcp-servers/googlesuper)** — Search academic papers, citations, and case law from Google Scholar. No API key required. Data via SerpAPI; Smithery is not affiliated with Google. · `1 tool` · remote
 - **[Python execute](https://www.revuo.ai/category/mcp-servers/stuzhy)** — Run Python code in a secure sandbox without local setup. Declare inline dependencies and execute snippets instantly. Prototype, test, and share reproducible results with ease. · `1 tool` · remote
 - **[ai.aliengiraffe/spotdb](https://www.revuo.ai/category/mcp-servers/aliengiraffe)** — Ephemeral data sandbox for AI workflows with guardrails and security
 - **[ai.com.mcp/contabo](https://www.revuo.ai/category/mcp-servers/la-rebelion)** — Contabo API (v1.0.0) as MCP tools for cloud provisioning, and management. Powered by HAPI MCP server · remote
@@ -115,10 +115,28 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[ai.smithery/ImRonAI-mcp-server-browserbase](https://www.revuo.ai/category/mcp-servers/imronai)** — Automate cloud browsers to navigate websites, interact with elements, and extract structured data.… · remote
 - **[ai.smithery/PabloLec-keyprobe](https://www.revuo.ai/category/mcp-servers/pablolec)** — Audit certificates and keystores to surface expiry risks, weak algorithms, and misconfigurations.… · remote
 - **[Clay](https://www.revuo.ai/category/mcp-servers/clay-inc)** — Find and quote agent capabilities, then pay only the selected x402 execution URL. · `20 tools` · remote
+- **[Exa Websets](https://www.revuo.ai/category/mcp-servers/exa-labs)** — Create and manage collections of companies, people, and papers, automatically discovering and verifying relevant entities. Enrich items with custom fields like CEO name, funding amount, or company stage, and inspect detailed results. Schedule recurring searches to keep collections fresh and catch new additions. · remote
 - **[FrankfurterMCP](https://www.revuo.ai/category/mcp-servers/anirbanbasu)** — A MCP server for the Frankfurter API for currency exchange rates. · remote
 - **[Linkup](https://www.revuo.ai/category/mcp-servers/linkupplatform)** — Search the web in real time to get trustworthy, source-backed answers. Find the latest news and co… · `2 tools` · remote
 - **[NetworkCalc](https://www.revuo.ai/category/mcp-servers/ramadasmr)** — Look up DNS information for any domain to troubleshoot issues and gather insights. Get fast, relia… · `5 tools` · remote
 - **[Ticktick](https://www.revuo.ai/category/mcp-servers/ticktick)** — MCP server for TickTick task management: field-preserving updates and completion tracking.
+
+## B2B SaaS Directories
+
+- **[NewsBlur](https://www.revuo.ai/category/b2b-saas-directories/newsblur)** — A personal news reader that brings people together to talk about the world. · `18 tools` · remote · ✓ verified
+- **[Revuo](https://www.revuo.ai/category/b2b-saas-directories/revuo)** — AI-powered software directory. Find, compare, and choose the best software with curated reviews and feature comparisons. · `14 tools` · remote · ✓ verified
+- **[Hashnode](https://www.revuo.ai/category/b2b-saas-directories/hashnode)** — Write to think. Publish to connect. · `48 tools` · remote
+- **[Smithery](https://www.revuo.ai/category/b2b-saas-directories/smithery)** — Connect agents to MCPs in minutes · `46 tools` · remote
+- **[AlternativeTo](https://www.revuo.ai/category/b2b-saas-directories/alternativeto)** — Crowdsourced software recommendations · `23 tools` · remote
+- **[WordPress](https://www.revuo.ai/category/b2b-saas-directories/wordpress)** — The open source publishing platform of choice for millions of websites worldwide. · `20 tools` · remote
+- **[Hacker News](https://www.revuo.ai/category/b2b-saas-directories/hacker-news)** — A community for sharing and discussing technology, startups, and intellectually curious topics. · `4 tools` · remote
+- **[Feedly](https://www.revuo.ai/category/b2b-saas-directories/feedly)** — The fastest way to track emerging threats with AI
+- **[G2](https://www.revuo.ai/category/b2b-saas-directories/g2)** — The world’s largest and most trusted data source for B2B software. · remote
+- **[GetApp](https://www.revuo.ai/category/b2b-saas-directories/getapp)** — Where business leaders find software · `8 tools` · remote
+- **[Lobsters](https://www.revuo.ai/category/b2b-saas-directories/lobsters)** — A computing-focused community for sharing links and discussing software, systems, and computer science.
+- **[SourceForge](https://www.revuo.ai/category/b2b-saas-directories/sourceforge)** — The complete software platform for software discovery, reviews, comparisons, and downloads.
+- **[Uneed](https://www.revuo.ai/category/b2b-saas-directories/uneed)** — Launch. Get seen. Grow. · remote
+- **[Wellfound](https://www.revuo.ai/category/b2b-saas-directories/wellfound)** — Where great companies meet great people. · remote
 
 ## Billing & Invoicing
 
@@ -167,20 +185,6 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[Okta](https://www.revuo.ai/category/sso-auth-bridges/okta)** — Secure Identity for Employees, Customers, and AI
 - **[OneLogin](https://www.revuo.ai/category/sso-auth-bridges/onelogin)** — Access without friction. Security without compromise.
 
-## B2B SaaS Directories
-
-- **[Revuo](https://www.revuo.ai/category/b2b-saas-directories/revuo)** — AI-powered software directory. Find, compare, and choose the best software with curated reviews and feature comparisons. · `14 tools` · remote · ✓ verified
-- **[Hashnode](https://www.revuo.ai/category/b2b-saas-directories/hashnode)** — Write to think. Publish to connect. · `48 tools` · remote
-- **[Smithery](https://www.revuo.ai/category/b2b-saas-directories/smithery)** — Connect agents to MCPs in minutes · `46 tools` · remote
-- **[AlternativeTo](https://www.revuo.ai/category/b2b-saas-directories/alternativeto)** — Crowdsourced software recommendations · `23 tools` · remote
-- **[Hacker News](https://www.revuo.ai/category/b2b-saas-directories/hacker-news)** — A community for sharing and discussing technology, startups, and intellectually curious topics. · `4 tools` · remote
-- **[G2](https://www.revuo.ai/category/b2b-saas-directories/g2)** — The world’s largest and most trusted data source for B2B software. · remote
-- **[GetApp](https://www.revuo.ai/category/b2b-saas-directories/getapp)** — Where business leaders find software · `8 tools` · remote
-- **[Lobsters](https://www.revuo.ai/category/b2b-saas-directories/lobsters)** — A computing-focused community for sharing links and discussing software, systems, and computer science.
-- **[SourceForge](https://www.revuo.ai/category/b2b-saas-directories/sourceforge)** — The complete software platform for software discovery, reviews, comparisons, and downloads.
-- **[Uneed](https://www.revuo.ai/category/b2b-saas-directories/uneed)** — Launch. Get seen. Grow. · remote
-- **[Wellfound](https://www.revuo.ai/category/b2b-saas-directories/wellfound)** — Where great companies meet great people. · remote
-
 ## Coding Agent Remotes
 
 - **[Vercel Sandbox](https://www.revuo.ai/category/coding-agent-remotes/vercel-sandbox)** — Run agent-generated and untrusted code in isolated Linux microVMs. · `12 tools` · remote · ✓ verified
@@ -202,13 +206,14 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[MentionBird](https://www.revuo.ai/category/aeo-geo-llm-monitoring/mentionbird)** — Win the customers who ask AI what to buy. · `55 tools` · remote
 - **[Peec AI](https://www.revuo.ai/category/aeo-geo-llm-monitoring/peec-ai)** — AI Search Analytics for Marketing Teams · `11 tools` · remote
 - **[RankZap](https://www.revuo.ai/category/aeo-geo-llm-monitoring/rankzap-seo)** — SEO audits, keyword research, AI article drafts and client reports. · `9 tools` · remote
+- **[SE Ranking](https://www.revuo.ai/category/aeo-geo-llm-monitoring/se-ranking)** — AI SEO Software That Gets Results · `9 tools` · remote
 - **[Profound](https://www.revuo.ai/category/aeo-geo-llm-monitoring/profound)** — Optimize Your Brand's Visibility in AI Search · `2 tools` · remote
 - **[Semrush](https://www.revuo.ai/category/aeo-geo-llm-monitoring/semrush)** — Data-Driven Marketing Tools to Grow Your Business · remote
 - **[Serpstat](https://www.revuo.ai/category/aeo-geo-llm-monitoring/serpstat)** — Speed up search marketing goals achievement. · remote
 
 ## AI Agent Orchestration
 
-- **[PromptShuttle](https://www.revuo.ai/category/ai-agent-orchestration/promptshuttle)** — Agent Orchestration API · `14 tools` · remote · ✓ verified
+- **[PromptShuttle](https://www.revuo.ai/category/ai-agent-orchestration/promptshuttle)** — Agent Orchestration API · `18 tools` · remote · ✓ verified
 - **[Zapier Central](https://www.revuo.ai/category/ai-agent-orchestration/zapier-central)** — Build AI teammates with Zapier Agents · `1 tool` · remote · ✓ verified
 - **[Swarm](https://www.revuo.ai/category/ai-agent-orchestration/swarm)** — Educational framework exploring ergonomic, lightweight multi-agent orchestration. · `12 tools` · remote
 - **[LlamaIndex](https://www.revuo.ai/category/ai-agent-orchestration/llamaindex)** — Review and rewrite LangChain, LlamaIndex, Ollama, and XRPL code against current APIs, plus runnable examples and XRPL tx skeletons. $0.001 USDC on Base or 1000 drops XRP. · `10 tools` · remote
@@ -253,7 +258,7 @@ A curated, always-current list of **B2B SaaS products that expose an agent-calla
 - **[RankYak](https://www.revuo.ai/category/ai-blog-writer/rankyak)** — Your all-in-one SEO platform that finds keywords, writes content, and builds backlinks — boosting your visibility in Google and ChatGPT on full autopilot. · `9 tools` · remote
 - **[Frase](https://www.revuo.ai/category/ai-blog-writer/frase)** — The Agentic SEO & GEO Platform \| Rank on Google. Get Cited by AI. · remote
 - **[Jasper](https://www.revuo.ai/category/ai-blog-writer/jasper)** — Put AI agents to work for marketing
-- **[Rytr](https://www.revuo.ai/category/ai-blog-writer/rytr)** — AI writing assistant for creating original marketing, business, and everyday content.
+- **[Rytr](https://www.revuo.ai/category/ai-blog-writer/rytr)** — AI writing assistant for creating original marketing, business, and everyday content. · remote
 - **[WRITER](https://www.revuo.ai/category/ai-blog-writer/writer)** — The enterprise AI platform for agentic work. · `10 tools` · remote
 
 ## Cloud & Infrastructure
